@@ -3,10 +3,33 @@
         "model": "levelupapi.event",
         "pk": 1,
         "fields": {
-            "description": "Having fun",
-            "datetime": "2020-08-29T13:24:27.172Z",
+            "organizer_id": 1,
+            "description": "Welcome To at lunch",
+            "game_id": 1,
+            "date": "2021-10-04",
+            "time": "12:00"
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 2,
+        "fields": {
+            "organizer_id": 1,
+            "description": "Friday night Settlers and drinks",
             "game_id": 2,
-            "organizer_id": 1
+            "date": "2021-08-14",
+            "time": "19:30"
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 3,
+        "fields": {
+            "organizer_id": 1,
+            "description": "Vale of the Frost King campaign. All weekend.",
+            "game_id": 3,
+            "date": "2021-04-20",
+            "time": "8:00"
         }
     }
 ]
